@@ -7,7 +7,11 @@ import javax.persistence.Id;
 
 @Entity
 public class User {
+
 private String State;
+
+private String city;
+
 	@Id
 	private Integer id;
 	 private String username ;
