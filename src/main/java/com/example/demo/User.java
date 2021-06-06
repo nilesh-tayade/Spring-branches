@@ -7,7 +7,7 @@ import javax.persistence.Id;
 
 @Entity
 public class User {
-
+private String city;
 	@Id
 	private Integer id;
 	 private String username ;
